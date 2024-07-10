@@ -6,7 +6,7 @@ import { ImageInfo } from './LazyLoadingImage.types'
 
 
 const options: IntersectionObserverInit = {
-  rootMargin: "60000px"
+  rootMargin: "600px"
 }
 
 const LazyLoadingImage = ({ imgSrc }: ImageInfo) => {
